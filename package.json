@@ -12,6 +12,11 @@
       "version": "4.1.0"
     }
   },
+  "scripts": {
+    "rebuild": "rm -rf platforms/ && rm -rf hooks/ && rm -rf node_modules/ && npm i",
+    "android": "tns run android --bundle --env.uglify --env.aot",
+    "ios": "tns run ios --bundle --env.uglify --env.aot"
+  },
   "dependencies": {
     "@angular/animations": "~6.0.0",
     "@angular/common": "~6.0.0",
