@@ -13,3 +13,4 @@ platforms/
 tmp/
 typings/
 .vscode/settings.json
+package-lock.json
