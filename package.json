@@ -15,7 +15,9 @@
   "scripts": {
     "rebuild": "rm -rf platforms/ && rm -rf hooks/ && rm -rf node_modules/ && npm i",
     "android": "tns run android --bundle --env.uglify --env.aot",
-    "ios": "tns run ios --bundle --env.uglify --env.aot"
+    "ios": "tns run ios --bundle --env.uglify --env.aot",
+    "build.android": "tns build android --bundle --env.uglify --env.aot",
+    "build.ios": "tns build ios --bundle --env.uglify --env.aot"
   },
   "dependencies": {
     "@angular/animations": "~6.0.0",
