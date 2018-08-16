@@ -8,9 +8,13 @@
 android {  
   defaultConfig {  
     generatedDensities = []
-    applicationId = "org.nativescript.nativescriptngxstarterkit"  
+    applicationId = "org.swcbba.checkin"
+    multiDexEnabled true
   }  
   aaptOptions {  
     additionalParameters "--no-version-vectors"  
-  }  
+  }
+  project.ext {
+    googlePlayServicesVersion = "15.0.0"
+  }
 } 
