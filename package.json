@@ -30,6 +30,8 @@
     "@angular/platform-browser-dynamic": "~6.1.0",
     "@angular/router": "~6.1.0",
     "nativescript-angular": "^6.1.0",
+    "nativescript-barcodescanner": "^2.7.8",
+    "nativescript-camera": "^4.0.2",
     "nativescript-theme-core": "~1.0.4",
     "reflect-metadata": "~0.1.8",
     "rxjs": "~6.1.0",
