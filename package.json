@@ -4,7 +4,7 @@
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
   "nativescript": {
-    "id": "org.nativescript.nativescriptngxstarterkit",
+    "id": "org.swcbba.checkin",
     "tns-android": {
       "version": "4.2.0"
     },
@@ -32,6 +32,7 @@
     "nativescript-angular": "^6.1.0",
     "nativescript-barcodescanner": "^2.7.8",
     "nativescript-camera": "^4.0.2",
+    "nativescript-plugin-firebase": "^6.4.1",
     "nativescript-theme-core": "~1.0.4",
     "reflect-metadata": "~0.1.8",
     "rxjs": "~6.1.0",
